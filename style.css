@@ -1,19 +1,46 @@
 *{
-    background-color: rgb(255, 255, 0);
+    animation: helo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
     color: rgb(0, 0, 0);
+    background-color: yellow;
+    font-family: sans-serif;
     font-weight: 1000;
     padding: 0%;
     margin: 0%;
 }
 
+
+
+
+@keyframes helllo{
+    from {font-size: 50%;}
+    to {}
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+}
+
 h1{
+    animation: helllo;
+    animation-duration: 2s;
     display: inline;
     font-size: 300%;
     text-align: center;
 }
 h3{
-    display: inline;
+    animation: helllo;
+    animation-duration: 2s;
     text-align: center;
+}
+#ap{
+    display: inline;
 }
 .wrapper{
     width: max-content;
@@ -48,6 +75,9 @@ h3{
     h1{
         font-size: 500%;
     }
+    h3{
+        font-size: 120%;
+    }
 }
 @media (min-width:600px){
     h1{
@@ -57,6 +87,9 @@ h3{
 @media (min-width:700px){
     h1{
         font-size: 700%;
+    }
+    h3{
+        font-size: 150%;
     }
 }
 @media (min-width:768px){

@@ -4,6 +4,22 @@ function kloc(){
     var m = t.getMinutes();
     var s = t.getSeconds();
     var ap = "AM"
+
+    if(h>=4){
+        document.getElementById('gre').innerHTML = "Good Morning"
+
+    }
+    if(h>12){
+        document.getElementById('gre').innerHTML = "Good Afternoon"
+    }
+    if(h>15){
+        document.getElementById('gre').innerHTML = "Good Evening"
+    }
+
+    if(h>20){
+        document.getElementById('gre').innerHTML = "Good Night"
+    }
+
     if(h>12){
         ap = "PM"
     }
