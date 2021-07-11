@@ -1,0 +1,167 @@
+*{
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    display: inline;
+    font-size: 300%;
+    text-align: center;
+}
+h3{
+    display: inline;
+    text-align: center;
+}
+.wrapper{
+    width: max-content;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+@media (min-width:200px){
+    h1{
+        font-size: 250%;
+    }
+}
+@media (min-width:320px){
+    h1{
+        font-size: 300%;
+    }
+}
+@media (min-width:375px){
+    h1{
+        font-size: 350%;
+    }
+}
+@media (min-width:425px){
+    h1{
+        font-size: 400%;
+    }
+}
+@media (min-width:500px){
+    h1{
+        font-size: 500%;
+    }
+}
+@media (min-width:600px){
+    h1{
+        font-size: 600%;
+    }
+}
+@media (min-width:700px){
+    h1{
+        font-size: 700%;
+    }
+}
+@media (min-width:768px){
+    h1{
+        font-size: 800%;
+    }
+}
+@media (min-width:850px){
+    h1{
+        font-size: 900%;
+    }
+}
+@media (min-width:950px){
+    h1{
+        font-size: 1000%;
+    }
+}
+@media (min-width:1050px){
+    h1{
+        font-size: 1100%;
+    }
+    h3{
+        font-size: 300%;
+    }
+}
+@media (min-width:1150px){
+    h1{
+        font-size: 1200%;
+    }
+}
+@media (min-width:1250px){
+    h1{
+        font-size: 1300%;
+    }
+}
+@media (min-width:1350px){
+    h1{
+        font-size: 1400%;
+    }
+}
+@media (min-width:1450px){
+    h1{
+        font-size: 1500%;
+    }
+}
+
+@media (min-width:1550px){
+    h1{
+        font-size: 1600%;
+    }
+}
+@media (min-width:1650px){
+    h1{
+        font-size: 1700%;
+    }
+}
+@media (min-width:1750px){
+    h1{
+        font-size: 1800%;
+    }
+}
+
+@media (min-width:1850px){
+    h1{
+        font-size: 1900%;
+    }
+}
+
+@media (min-width:1950px){
+    h1{
+        font-size: 2000%;
+    }
+}
+
+@media (min-width:2050px){
+    h1{
+        font-size: 2100%;
+    }
+}
+
+@media (min-width:2150px){
+    h1{
+        font-size: 2200%;
+    }
+}
+
+@media (min-width:2250px){
+    h1{
+        font-size: 2300%;
+    }
+}
+
+@media (min-width:2350px){
+    h1{
+        font-size: 2400%;
+    }
+}
+
+@media (min-width:2450px){
+    h1{
+        font-size: 2500%;
+    }
+}
+@media (min-width:2550px){
+    h1{
+        font-size: 2600%;
+    }
+}
